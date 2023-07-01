@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body class="bg"> 
+  <nav>
+    <input type="checkbox" id="check" class="checkbtn">
+    <label for="check" class="checkbtn">
+      <i class="fa fa-bars"></i> 
+    </label>
+    <img class="logoG" src="../assets/ourLogo.png"/>
+    <label class="logo">Godric Web Solutions</label>
+    <ul>
+      <li><a routerLink="">Home</a></li>
+      <li><a routerLink="about">About Us</a></li>
+      <li><a routerLink="services">Services</a></li>
+      <li><a routerLink="contact">Contact Us</a></li>
+      <li><a href="https://twitter.com/Godric_Web?t=OhTOfexXkCFErtDoKRZgDw&s=09" target="_blank"><i class="fa fa-twitter" title="Twitter"></i></a></li>
+      <li><a href="https://www.linkedin.com/company/godric-web-solutions/" target="_blank"><i class="fa fa-linkedin" title="LinkedIn"></i></a></li>
+    </ul>
+  </nav>
+  <section class="bgs">
+    <router-outlet></router-outlet>
+  </section>
+  <footer class="footer fixed-bottom">
+    Godric Web Solutions 	&#169; 2022
+  </footer>
+</body>

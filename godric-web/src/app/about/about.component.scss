@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../../assets/about_bg.png");
+
+  /* Full height */
+  min-height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.title {
+  color: white;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 40%;
+  padding-top: 10%;
+}
+
+span {
+  color: rgb(166, 166, 173);
+}
+
+.subtitle {
+  color: rgb(239, 222, 222);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  color: aliceblue;
+}
+
+.members {
+  color: grey;
+  text-align: center;
+  margin-left: 5%;
+}

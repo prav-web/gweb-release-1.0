@@ -3,7 +3,7 @@ body, html {
   height: 100%;
 }
 
-.bg {
+section {
   /* The image used */
   background-image: url("../../assets/blue.jfif");
 
@@ -17,11 +17,6 @@ body, html {
   z-index: -1;
 }
 
-.btn {
-  margin-left: 35%;
-  width: 435px;
-}
-
 .message {
   color: azure;
 }
@@ -31,33 +26,103 @@ form {
   width: 80%;
   // height: 80%;
   margin-left: 10%;
+  margin-top: 10%;
   padding: 10px;
   background-image: url(../../assets/contact.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   position: relative;
   align-items: center;
-  top: 0;
+  // top: 0;
   right: 0;
 }
 
 label {
   width: 200px;
+  max-width: 100%;
   color: white;
   margin: 1%;
-  font-weight: 800;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: right;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 input, textarea {
   width: 435px;
+  max-width: 100%;
   margin: 1%;
   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
 }
 
 h1 {
   padding-top: 3%;
   text-align: center;
-  font-weight: 800;
+  font-size: 30px;
+  font-weight: 500;
   color:rgb(63, 92, 93)
+}
+
+// .button {
+//   background: #5E5DF0;
+//   border-radius: 999px;
+//   box-shadow: #5E5DF0 0 10px 20px -10px;
+//   box-sizing: border-box;
+//   color: #FFFFFF;
+//   cursor: pointer;
+//   font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+//   font-size: 16px;
+//   font-weight: 700;
+//   line-height: 24px;
+//   opacity: 1;
+//   outline: 0 solid transparent;
+//   padding: 8px 18px;
+//   user-select: none;
+//   -webkit-user-select: none;
+//   touch-action: manipulation;
+//   width: fit-content;
+//   word-break: break-word;
+//   border: 0;
+  
+// }
+
+// 
+
+
+.button {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 1em;
+  margin-left: 26.6%;
+  max-width: 65.6%;
+  width: 435px;
+  padding: 5px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button:active,
+.button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button {
+    font-size: 24px;
+    min-width: 196px;
+  }
 }

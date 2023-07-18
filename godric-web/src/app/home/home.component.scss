@@ -23,12 +23,13 @@ body, html {
 }
 
 .services {
-  background-image: url("../../assets/servicesbg.png");
+  // background-image: url("../../assets/servicesbg.png");
 
 
   /* Full height */
   height: 100%;
   text-align: center;
+  background-color: white;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -38,7 +39,7 @@ body, html {
   margin-bottom: 30%;
   padding-top: 2%;
   padding-bottom: 14%;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 500;
   font-size: 40px;
   animation: infinite ;
@@ -47,11 +48,11 @@ body, html {
   animation-iteration-count: infinite;
 }
   
-@keyframes example {
-  0%   {color: black }
-  50%  {color: white }
-  100% {color: black }
-}
+// @keyframes example {
+//   0%   {color: black }
+//   50%  {color: white }
+//   100% {color: black }
+// }
 
 .card svg.material-icons path {
   fill: #888;
@@ -93,11 +94,13 @@ body, html {
 
 .card-container .card:not(.highlight-card) {
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 .card-container .card:not(.highlight-card):hover {
   transform: translateY(-3px);
-  box-shadow: 0 16px 68px rgba(0, 0, 0, 0.7);
+  // box-shadow: 0 16px 68px rgba(0, 0, 0, 0.7);s
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .card-container .card:not(.highlight-card):hover .material-icons path {

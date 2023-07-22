@@ -24,13 +24,9 @@ export class ContactComponent implements OnInit {
 
   sendQuery(data: any) {
     // alert(data);
-    let mailText = "mailto:godricweb.in@gmail.com+?subject=" +data.name+ "&body=" + data.message;
-    // let url = 'https://mail.google.com/mail/?to=godricweb.in@gmail.com&subject=' + data.name + 'body=' + data.message + '#compose';
     let url = 'https://mail.google.com/mail/?view=cm&to=godricweb.in@gmail.com&su=' + data.name + '&body=' + data.message;
     window.open(url, "_blank");
-    // this._contactService.sendQuery(data).subscribe((res) => {
     //   alert('Query Sent Successfully')
-    // });
   }
 
 

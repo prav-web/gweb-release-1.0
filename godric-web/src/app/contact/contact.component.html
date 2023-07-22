@@ -1,10 +1,8 @@
 <body>
-  BUG
-  <section>
     <div class="container">
-      <form
-        (ngSubmit)="send()"
-      >
+      <div class="form-center">
+        <div style="margin-bottom: 2%;"> </div>
+      <form [formGroup]="contactForm" (ngSubmit)="sendQuery(contactForm.value)">
         <h1>
           Contact Us
         </h1>
@@ -16,9 +14,10 @@
             <input
             formControlName="name"
             type="text"
+            required
             id="name"
             name="name"
-            placeholder="your name here.."
+            placeholder=" Your name here.."
             />
           </div>
         </div>
@@ -30,9 +29,10 @@
             <input
             formControlName="email"
             type="email"
+            required
             id="email"
             name="email"
-            placeholder="Enter your mail ID"
+            placeholder=" Enter your mail ID"
             />
           </div>
         </div>
@@ -50,15 +50,10 @@
             </textarea>
           </div>
         </div>
-        <!-- <div class="row"> -->
-          <!-- <div class="col col-8"> -->
-            <button class="button">
-              Send
-            </button>
-          <!-- </div> -->
-        <!-- </div> -->
+          <button type="submit" class="button" [disabled]="!contactForm.valid">
+            Send
+          </button>
       </form>
     </div>
-  </section>
-  
+  </div>
 </body>

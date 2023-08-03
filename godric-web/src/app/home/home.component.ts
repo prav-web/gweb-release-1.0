@@ -8,8 +8,6 @@ import { Router } from '@angular/router';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
-  isDesign = true;
   contactForm!: FormGroup;
 
   constructor(private _router:Router,
@@ -23,25 +21,9 @@ export class HomeComponent implements OnInit {
     })
   }
 
-  gotoServices() {
-    // this._router.navigate(['/services']);
-  }
-
-  // gotoDesign() {
-  //   let designContent = document.getElementById('design') as HTMLBodyElement;
-  //   designContent.innerHTML = 'Praveen';
-  // }
-
-  gotoSupport() {
-    this.isDesign = !this.isDesign;
-    this._router.navigate(['/contact']);
-  }
-
   sendQuery(data: any) {
-    // alert(data);
     let url = 'https://mail.google.com/mail/?view=cm&to=godricweb.in@gmail.com&su=' + data.name + '&body=' + data.message;
     window.open(url, "_blank");
-    //   alert('Query Sent Successfully')
   }
 
 }

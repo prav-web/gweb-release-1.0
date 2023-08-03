@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   height: 100%;
 }
 
@@ -7,14 +8,8 @@ body, html {
 }
 
 .bg {
-  /* The image used */
   background-image: url("../../assets/background.jpg");
-
-
-  /* Full height */
   min-height: 100%;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +26,7 @@ body, html {
   text-align: center;
   margin-top: 120px;
   font-size: 86px;
-  font-family: 'Rancho', sans-serif;
+  font-family: "Rancho", sans-serif;
 }
 
 .content {
@@ -39,7 +34,8 @@ body, html {
   line-height: 180%;
   font-size: 26px;
   text-align: justify;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .serviceTitle {
@@ -49,48 +45,11 @@ body, html {
   color: teal;
 }
 
-.services {
-  background-image: url("../../assets/home2.jpg");
-
-
-  /* Full height */
-  padding: 50px;
-  height: max-content;
-  text-align: center;
-  // background-color: white;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  // z-index: -1;
-  // margin-top: -1%;
-  // margin-bottom: 30%;
-  // padding-top: 5%;
-  // padding-bottom: 10%;
-  // font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  // font-weight: 500;
-  // font-size: 46px;
-  // color: black;
-  // animation: infinite ;
-  // animation-name: example;
-  // animation-duration: 2s;
-  // animation-iteration-count: infinite;
-}
-
 .title {
   text-align: center;
   font-size: 46px;
   color: #888;
-  // text-shadow: -1px 1px 0 #111,
-  //               4px 4px 0 #111,
-  //               1px -1px 0 #111,
-  //               -1px -1px 0 #111;
 }
-// @keyframes example {
-//   0%   {color: black }
-//   50%  {color: white }
-//   100% {color: black }
-// }
 
 .card svg.material-icons path {
   fill: #888;
@@ -128,14 +87,11 @@ body, html {
   margin-right: 0;
 }
 
-// .card.card-small {
-//   height: 16px;
-//   width: 168px;
-// }
-
 .card-container .card:not(.highlight-card) {
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 .card-container .card:not(.highlight-card):hover {
@@ -144,9 +100,8 @@ body, html {
   height: 400px;
   background: transparent;
   backdrop-filter: blur(16px);
-  // border: 2px solid #888;
-  // box-shadow: 0 16px 68px rgba(0, 0, 0, 0.7);s
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .card-container .card:not(.highlight-card):hover .material-icons path {
@@ -167,9 +122,8 @@ body, html {
   margin-left: 60px;
 }
 
-/* Responsive Styles */
 @media screen and (max-width: 767px) {
-  .card-container > *:not(.circle-link) ,
+  .card-container > *:not(.circle-link),
   .terminal {
     width: 100%;
   }
@@ -189,26 +143,20 @@ span {
   color: #000;
   font-size: 18px;
   font-weight: bolder;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-
-body, html {
+body,
+html {
   height: max-content;
 }
 
 .services-bg {
-  /* The image used */
-  // background-image: url("../../assets/about-us.jpg");
   background-color: #fff;
   background-attachment: fixed;
   top: 0;
   width: 100%;
-
-  /* Full height */
   min-height: max-content;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -218,19 +166,7 @@ body, html {
 mat-toolbar {
   margin: 0;
   width: 100%;
-  // color: rgb(68, 154, 154);
   background-color: transparent;
-}
-
-.header {
-  font-size: 36px;
-  color: black;
-  margin-top: -20px;
-  margin-left: 45%;
-  text-align: right;
-  align-items: center;
-  justify-content: center;
-  justify-self: center;
 }
 
 mat-card {
@@ -238,44 +174,28 @@ mat-card {
   margin-left: 5%;
   width: 90%;
   align-items: center;
-}
-
-mat-card-title {
-  color: white;
-  font-size: 36px;
-  // height: 75px;
-}
-
-.mat-card-title, .mat-card-header {
-  font-size: 26px;
-}
-
-mat-card-header {
-  margin: -16px;
-  margin-top: -20px;
-  height: 65px;
-  font-size: 36px;
-  padding-top: 5px;
-  background-color: rgb(83, 177, 146);
-}
-
-mat-card:hover {
-  // box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
   margin-bottom: 20px;
 }
 
-mat-card-content {
-  background-color: rgb(83, 177, 146);
-  margin: -16px;
-  padding: 25px;
-  color: white;
+.mat-card-title,
+.mat-card-header {
+  font-size: 26px;
 }
 
+.service-name {
+  font-size: 26px;
+  color: teal;
+}
+mat-card-content {
+  background-color: #ffe;
+  margin: -16px;
+  padding: 25px;
+  color: black;
+}
 
 p {
   text-align: justify;
   width: 80%;
-  // font-style: italic;
   font-family: Helvetica;
   margin-left: 10%;
   font-size: 22px;
@@ -298,9 +218,6 @@ b {
   font-weight: 700;
 }
 
-// mdb-carousel-item:hover {
-  // box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
-// }
 iframe {
   margin: 2% 4%;
   margin-left: 120px;
@@ -311,38 +228,18 @@ iframe {
   background-color: #f5f5f5;
 }
 
-body, html {
+body,
+html {
   padding-top: 20px;
   width: 100%;
-  /* The image used */
-  // background-image: url("../../assets/about-us.jpg");
   background-color: #f5f5f5;
-
-  /* Full height */
   height: 100%;
-  // margin-left: 120px;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
   padding-bottom: 50px;
 }
-
-// section {
-//   /* The image used */
-//   background-image: url("../../assets/blue.jfif");
-
-//   /* Full height */
-//   min-height: 100%;
-
-//   /* Center and scale the image nicely */
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   z-index: -1;
-// }
 
 .message {
   color: azure;
@@ -353,23 +250,13 @@ body, html {
 }
 
 .form-center {
-  // display:flex;
-  // justify-content: center;
-  // margin-top: 10%;
-  text-align:justify;
-  // width: 100%;
-  // height: 80%;
+  text-align: justify;
   margin-left: 25%;
-  // margin-top: 10%;
   padding: 10px;
-  // background-image: url(../../assets/contact.jpg);
-  // background: white;
-  // opacity: 0.2;
   background-repeat: no-repeat;
   background-size: auto;
   position: relative;
   align-items: center;
-  // top: 0;
   right: 0;
 }
 
@@ -384,7 +271,8 @@ label {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-input, textarea {
+input,
+textarea {
   width: 435px;
   max-width: 100%;
   margin: 1%;
@@ -397,43 +285,17 @@ h1 {
   text-align: center;
   font-size: 30px;
   font-weight: 500;
-  color:rgb(63, 92, 93)
+  color: rgb(63, 92, 93);
 }
-
-// .button {
-//   background: #5E5DF0;
-//   border-radius: 999px;
-//   box-shadow: #5E5DF0 0 10px 20px -10px;
-//   box-sizing: border-box;
-//   color: #FFFFFF;
-//   cursor: pointer;
-//   font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
-//   font-size: 16px;
-//   font-weight: 700;
-//   line-height: 24px;
-//   opacity: 1;
-//   outline: 0 solid transparent;
-//   padding: 8px 18px;
-//   user-select: none;
-//   -webkit-user-select: none;
-//   touch-action: manipulation;
-//   width: fit-content;
-//   word-break: break-word;
-//   border: 0;
-  
-// }
-
-// 
-
 
 .button {
   align-items: center;
-  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   font-family: Phantomsans, sans-serif;
   font-size: 16px;

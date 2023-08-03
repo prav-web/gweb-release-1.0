@@ -21,15 +21,23 @@ body, html {
   z-index: -1;
 }
 
+.logo-banner {
+  background-color: #fff;
+  width: 100%;
+}
+
 .banner {
   width: 100%;
-  height: 350px;
+  text-align: center;
+  margin-top: 120px;
+  font-size: 86px;
+  font-family: 'Rancho', sans-serif;
 }
 
 .content {
   padding: 20px 50px;
   line-height: 180%;
-  font-size: 20px;
+  font-size: 26px;
   text-align: justify;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -192,7 +200,7 @@ body, html {
 .services-bg {
   /* The image used */
   // background-image: url("../../assets/about-us.jpg");
-  background-color: #ffe;
+  background-color: #fff;
   background-attachment: fixed;
   top: 0;
   width: 100%;
@@ -208,61 +216,249 @@ body, html {
 }
 
 mat-toolbar {
-margin: 0;
-width: 100%;
-// color: rgb(68, 154, 154);
-background-color: transparent;
+  margin: 0;
+  width: 100%;
+  // color: rgb(68, 154, 154);
+  background-color: transparent;
 }
 
 .header {
-font-size: 46px;
-color: black;
-margin-top: 2%;
-margin-left: 35%;
-text-align: right;
-align-items: center;
-justify-content: center;
-justify-self: center;
+  font-size: 36px;
+  color: black;
+  margin-top: -20px;
+  margin-left: 45%;
+  text-align: right;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
 }
 
 mat-card {
-margin: 2% 0;
-width: 100%;
-align-items: center;
+  margin: 2%;
+  margin-left: 5%;
+  width: 90%;
+  align-items: center;
 }
 
 mat-card-title {
-color: teal;
-font-size: 22px;
+  color: white;
+  font-size: 36px;
+  // height: 75px;
+}
+
+.mat-card-title, .mat-card-header {
+  font-size: 26px;
+}
+
+mat-card-header {
+  margin: -16px;
+  margin-top: -20px;
+  height: 65px;
+  font-size: 36px;
+  padding-top: 5px;
+  background-color: rgb(83, 177, 146);
 }
 
 mat-card:hover {
-box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
-margin-bottom: 20px;
+  // box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  margin-bottom: 20px;
 }
 
+mat-card-content {
+  background-color: rgb(83, 177, 146);
+  margin: -16px;
+  padding: 25px;
+  color: white;
+}
+
+
 p {
-text-align: justify;
-width: 80%;
-// font-style: italic;
-font-family: Helvetica;
-margin-left: 10%;
-font-size: 22px;
-line-height: 150%;
-span {
-  text-align: center;
+  text-align: justify;
   width: 80%;
-  font-style: normal;
+  // font-style: italic;
+  font-family: Helvetica;
+  margin-left: 10%;
   font-size: 22px;
   line-height: 150%;
-  font-weight: 800;
-  color: cadetblue;
-  margin-left: 10%;
-  font-family: Helvetica;
-}
+  span {
+    text-align: center;
+    width: 80%;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 150%;
+    font-weight: 800;
+    color: cadetblue;
+    margin-left: 10%;
+    font-family: Helvetica;
+  }
 }
 
 b {
-color: rgb(137, 92, 179);
-font-weight: 700;
+  color: #000;
+  font-weight: 700;
+}
+
+// mdb-carousel-item:hover {
+  // box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+// }
+iframe {
+  margin: 2% 4%;
+  margin-left: 120px;
+  width: 85%;
+}
+
+.location {
+  background-color: #f5f5f5;
+}
+
+body, html {
+  padding-top: 20px;
+  width: 100%;
+  /* The image used */
+  // background-image: url("../../assets/about-us.jpg");
+  background-color: #f5f5f5;
+
+  /* Full height */
+  height: 100%;
+  // margin-left: 120px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  padding-bottom: 50px;
+}
+
+// section {
+//   /* The image used */
+//   background-image: url("../../assets/blue.jfif");
+
+//   /* Full height */
+//   min-height: 100%;
+
+//   /* Center and scale the image nicely */
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   z-index: -1;
+// }
+
+.message {
+  color: azure;
+}
+
+.f1 {
+  margin-bottom: 60px;
+}
+
+.form-center {
+  // display:flex;
+  // justify-content: center;
+  // margin-top: 10%;
+  text-align:justify;
+  // width: 100%;
+  // height: 80%;
+  margin-left: 25%;
+  // margin-top: 10%;
+  padding: 10px;
+  // background-image: url(../../assets/contact.jpg);
+  // background: white;
+  // opacity: 0.2;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  align-items: center;
+  // top: 0;
+  right: 0;
+}
+
+label {
+  width: 200px;
+  max-width: 100%;
+  color: #111;
+  margin: 1%;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input, textarea {
+  width: 435px;
+  max-width: 100%;
+  margin: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+}
+
+h1 {
+  padding-top: 3%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  color:rgb(63, 92, 93)
+}
+
+// .button {
+//   background: #5E5DF0;
+//   border-radius: 999px;
+//   box-shadow: #5E5DF0 0 10px 20px -10px;
+//   box-sizing: border-box;
+//   color: #FFFFFF;
+//   cursor: pointer;
+//   font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+//   font-size: 16px;
+//   font-weight: 700;
+//   line-height: 24px;
+//   opacity: 1;
+//   outline: 0 solid transparent;
+//   padding: 8px 18px;
+//   user-select: none;
+//   -webkit-user-select: none;
+//   touch-action: manipulation;
+//   width: fit-content;
+//   word-break: break-word;
+//   border: 0;
+  
+// }
+
+// 
+
+
+.button {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 1em;
+  margin-left: 26.6%;
+  max-width: 65.6%;
+  width: 435px;
+  padding: 5px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button:active,
+.button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button {
+    font-size: 24px;
+    min-width: 196px;
+  }
 }

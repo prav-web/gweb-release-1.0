@@ -13,6 +13,8 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatButtonModule } from "@angular/material/button";
 import { ContactService } from 'src/assets/services/contact.service';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+// import { OwlModule } from 'ngx-owl-carousel';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,
+    // OwlModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
@@ -31,6 +34,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatButtonModule,
     HttpClientModule,
     ReactiveFormsModule,
+    MDBBootstrapModule 
   ],
   providers: [ContactService],
   bootstrap: [AppComponent]

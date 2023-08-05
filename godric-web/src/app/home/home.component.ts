@@ -26,4 +26,16 @@ export class HomeComponent implements OnInit {
     window.open(url, "_blank");
   }
 
+  onDesign() {
+    alert('About Design - Page should be created')
+  }
+
+  onDevelopment() {
+    alert('About Development - Page should be created')
+  }
+
+  onTraining() {
+    alert('About Training - Courses form page should be created')
+  }
+
 }
